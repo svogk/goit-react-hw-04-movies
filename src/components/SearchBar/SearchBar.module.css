@@ -1,0 +1,29 @@
+.SearchForm {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 3px;
+}
+
+.SearchFormInput {
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  padding: 5px;
+}
+
+.SearchFormInput::placeholder {
+  font: inherit;
+  font-size: 18px;
+}
+
+.SearchFormInput:focus {
+  border-color: #3a6bd4;
+}
+
+.SearchFormButton {
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}

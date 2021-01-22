@@ -1,0 +1,28 @@
+.movieInfo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.movieDescription {
+  padding: 20px;
+}
+
+.addInfo {
+  padding-top: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+/* .buttonBack {
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+} */
+
+.buttonGoBack {
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
